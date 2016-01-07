@@ -12,6 +12,8 @@
 		1B3B79FB1C3E71E9000CF8CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3B79F91C3E71E9000CF8CF /* Main.storyboard */; };
 		1B3B79FD1C3E71E9000CF8CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B3B79FC1C3E71E9000CF8CF /* Assets.xcassets */; };
 		1B3B7A001C3E71E9000CF8CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3B79FE1C3E71E9000CF8CF /* LaunchScreen.storyboard */; };
+		1B3B7A081C3E729A000CF8CF /* MapCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3B7A071C3E729A000CF8CF /* MapCircleView.swift */; };
+		1B3B7A0A1C3E7684000CF8CF /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3B7A091C3E7684000CF8CF /* MyAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1B3B79FC1C3E71E9000CF8CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B3B79FF1C3E71E9000CF8CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B3B7A011C3E71E9000CF8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B3B7A071C3E729A000CF8CF /* MapCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCircleView.swift; sourceTree = "<group>"; };
+		1B3B7A091C3E7684000CF8CF /* MyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				1B3B79F51C3E71E9000CF8CF /* AppDelegate.swift */,
 				1B3B79F71C3E71E9000CF8CF /* ViewController.swift */,
+				1B3B7A091C3E7684000CF8CF /* MyAnnotation.swift */,
+				1B3B7A071C3E729A000CF8CF /* MapCircleView.swift */,
 				1B3B79F91C3E71E9000CF8CF /* Main.storyboard */,
 				1B3B79FC1C3E71E9000CF8CF /* Assets.xcassets */,
 				1B3B79FE1C3E71E9000CF8CF /* LaunchScreen.storyboard */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B3B79F81C3E71E9000CF8CF /* ViewController.swift in Sources */,
+				1B3B7A081C3E729A000CF8CF /* MapCircleView.swift in Sources */,
+				1B3B7A0A1C3E7684000CF8CF /* MyAnnotation.swift in Sources */,
 				1B3B79F61C3E71E9000CF8CF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
